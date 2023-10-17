@@ -1,0 +1,1 @@
+# dooray-auto-trans
