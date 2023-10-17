@@ -101,10 +101,8 @@ function insertPostTranslatorIndexedDB() {
                 use: true,
                 sourceLanguage: 'auto',
                 targetLanguage: 'en',
-                // createdAt: now.toISOString(),
-                // updatedAt: now.toISOString(),
-                createdAt: '2023-10-17T09:00:00+09:00',
-                updatedAt: '2023-10-17T09:00:00+09:00',
+                createdAt: now.toISOString(),
+                updatedAt: now.toISOString(),
             })
         }
 
