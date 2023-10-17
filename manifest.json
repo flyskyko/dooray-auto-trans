@@ -1,0 +1,12 @@
+{
+    "name": "Dooray! automatic translate",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Turn on Dooray! translation feature automatically",
+    "content_scripts": [
+      {
+        "matches": ["https://hmg.dooray.com/*"],
+        "js": ["content-script.js"]
+      }
+    ]
+  }
